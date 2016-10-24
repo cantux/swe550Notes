@@ -7,16 +7,16 @@
 Small q(functional quality): Software functional quality reflects how well it complies with or __conforms__ to a given design
 * Measurements are taken regularly to determine conformance to those requirements. The non-conformances are regarded as defects
 * Measured by
-  * defect rate 
+  * **Defect rate**
     * number of defects per million lines of source code
     * per function point, or other unit
-  * reliability 
+  * **Reliability**
     * number of failures per n hours of operation
     * mean time to failure
     * the probability of failure free operation in a specified time
     
 Big Q(structural quality): Fitness for use (relative to needs)
-* takes customers' requirements and expectations into account
+* Takes customers' requirements and expectations into account
   * Customer satisfaction: percent satisfied
 *  Includes other attributes
   * product quality
@@ -51,7 +51,7 @@ Process quality vs. Product Quality
   * Entry/Exit criteria for each stage
   * Feedback between stages
   * Emphasis on documents  
-  * Clearly defined stages 
+  * Clearly defined **stages**:
     * Requirements
     * Design
       * Architecture: The **structure** of the **components** of a _program system, their relationships, and principles and guidelines_ **governing** their _design and evolution_ over time. 
@@ -104,6 +104,7 @@ Process quality vs. Product Quality
 * Iterative
 * Object-Oriented
 * Cleanroom 
+
 ### Defect prevention
 
 ### Quality system
