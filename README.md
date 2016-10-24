@@ -243,9 +243,9 @@ The following two are not given as keywords and will be ommitted on the summary:
 * Complementary to other quality management frameworks
 * Formal Audit performed 
 
-Focus
-* Process quality
-* Process Implementation 
+* Focus
+  * Process quality
+  * Process Implementation 
 
 * Product Metrics Goals
   * Collect data and report values on regular basis
@@ -272,17 +272,103 @@ Very broad applies to all businesses.
 
 ### SEI CMM Software Engineering Institue Capability Maturity Model
 
+* Level 1: Initial: Characteristics: Chaotic—unpredictable cost, schedule, and quality performance.
+* Level 2: Repeatable Characteristics: Intuitive—cost and quality highly variable, reasonable control of schedules, informal and ad hoc methods and procedures. 
+  * key process areas (KPA):
+    * Requirements management
+    * Software project planning and oversight
+    * Software subcontract management
+    * Software quality assurance
+    * Software configuration management
+* Level 3: Defined: Characteristics: Qualitative—reliable costs and schedules, improving but unpredictable quality performance. The key elements to achieve this level of maturity follow:
+  * Organizational process improvement
+  * Organizational process definition
+  * Training program
+  * Integrated software management
+  * Software product engineering
+  * Intergroup coordination
+  * Peer reviews 
+* Level 4: Managed: Characteristics: Quantitative—reasonable statistical control over product quality. The key elements to achieve this level of maturity follow:
+  * Process measurement and analysis
+  * Quality management 
+* Level 5: Optimizing: Characteristics: Quantitative basis for continued capital investment in process automation and improvement. The key elements to achieve this highest level of maturity follow:
+  * Defect prevention
+  * Technology innovation
+  * Process change management
+  
+Following is a list of metrics-related topics addressed by the questionnaire.
+* Profiles of software size maintained for each software configuration item over time
+* Statistics on software design errors, Statistics on software code and test errors
+* Projection of design errors and comparison between projected and actual numbers
+* Projection of test errors and comparison between projected and actual numbers
+* Measurement of design review coverage, Measurement of test coverage
+* Tracking of design review actions to closure, Tracking of testing defects to closure
+* Database for process metrics data across all projects
+* Analysis of review data gathered during design reviews
+* Analysis of data already gathered to determine the likely distribution and characteristics of the errors in the remainder of the project
+* Analysis of errors to determine their process-related causes
+* Analysis of review efficiency for each project
+
+Several questions on defect prevention address the following topics:
+* Mechanism for error cause analysis
+* Analysis of error causes to determine the process changes required for error prevention
+* Mechanism for initiating error-prevention actions
+
 ### Six Sigma
+* Focuses on people rather than roles as the solution
+* Has metrics and measured improvement as core principles 
 
 ### Measurement theory
+Basic measurement theory steps
+* Proposition
+* Definition
+* Operational Definition
+* Metric definition
+* Hypothesis definitions
+* Testing and metric gathering
+* Confirmation or refutation of hypothesis
+
+* Front end SW process = design through unit test
+* Back end SW process = integration through system test 
+
+How measurements are classified and compared(low to high):
+* Nominal Scale
+  * Jointly exhaustive (all items can be categorized)
+  * Mutually exclusive (only one category applies) 
+  * Example: Categories of SW dev: Waterfall, Spiral, Iterative, OO. Does not imply that Waterfall is ‘better/greater’ than Spiral 
+* Ordinal Scale
+  * Like nominal except comparison can be applied but we cannot determine magnitude of difference 
+* Interval Scale
+  * Like ordinal scale, except now we can determine exact differences between measurement points
+  * Can use addition/subtraction expressions 
+* Ratio Scale 
+  * Can use multiplication and division
+  
+Measures are ways of analyzing and comparing **data** to extract meaningful **information**. 
+
+Basic measures
+* Ratio
+* Proportion
+* Percentage
+* Rate 
 
 ### Reliability
+Consistency of a number of measurements taken using the same measurement method on the same subject 
+
+Example: 
+
+If an operational definition of a body height measurement of children (e.g., between ages 3 and 12) includes specifications of the time of the day to take measurements, the specific scale to use, who takes the measurements (e.g., trained pediatric nurses), whether the measurements should be taken barefooted, and so on, it is likely that reliable data will be obtained.
+
+* Reliability can be expressed in terms of the size of the standard deviations of the repeated measurements. When variables are compared, usually the index of variation (IV) is used. IV is simply a ratio of the standard deviation to the mean:
+  * IV = Standard Deviation / Mean
+* The smaller the IV, the more reliable the measurements
 
 ### Validity
 
 ### Types of validity
 
 ### Causality
+Identification of cause and effect relationships in experiments
 
 ### Software quality metrics
 
