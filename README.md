@@ -364,19 +364,80 @@ If an operational definition of a body height measurement of children (e.g., bet
 * The smaller the IV, the more reliable the measurements
 
 ### Validity
+Validity is whether the measurement really measures what is intended
+to be measured 
+
+Example:
+
+For example, a new bathroom scale for body weight may give identical results upon five consecutive measurements (e.g., 160 lb.) and therefore it is reliable. However, the measurements may not be valid; they would not reflect the person's body weight if the offset of the scale were at 10 lb. instead of at zero. 
+
 
 ### Types of validity
+
+*Construct Validity - validity of a metric (operational measurement) to represent a theory 
+*Criterion-related (predictive) Validity - validity of a metric to predict a theory or relationship
+*Content Validity - the degree to which a metric covers the meaning of the concept 
 
 ### Causality
 Identification of cause and effect relationships in experiments
 
+* Validity and Reliability represent measurement quality
+* Correlation and Causality are goals of measurement
+
 ### Software quality metrics
 
-### Defect rate
+Product Metrics: size, complexity, design features, performance, and quality level 
+Process Metrics: effectiveness of defect removal, pattern of testing defect arrival, and response time of fixes 
+Project Metrics: number of developers, cost, schedule, productivity, etc. 
 
-### Defect density
+* End-Product Metrics
+  * Mean Time to Failure (MTTF)
+  * Defect Density
+  * Problems per User Month (PUM)
+  * Customer Satisfaction
+* In-Process Project Metrics
+  * Defect density during machine testing
+  * Defect arrival patterns during machine testing
+  * Phased-based defect removal
+  * Defect removal effectiveness
+  
+### Defect rate
+number of estimated defects 
+
+Defect count / KLOC, time etc.
+
+### Defect Removal Effectiveness
+(Defects removed in the phase / defects latent in product) x 100% 
+
+* Process quality metrics - focus on quality and effectiveness of the process.
+  * Defect density during machine testing
+  * Defect arrival rate during machine testing
+  * Phased based defect removal
+  * Defect removal effectiveness
+* Metrics for Software Maintenance
+  * Fix backlog and backlog management index
+  * Fix response time and fix responsiveness
+  * Percent delinquent fixes
+  * Fix quality 
+
+Metrics that are taken into account:
+
+Defect origin
+Stage where the defect was found
+Defects Entry
+Defects Injected
+Defects Total
+Defects Removed by Stage
+Defects Latent
 
 ### Quality tools
+1- Checklist (or Check Sheet)
+2- Pareto Diagram: 80-20
+3- Histogram
+4- Scatter Diagram: Correlation
+5- Run Chart: metric/time: find trends
+6- Control Chart
+7- Cause-Effect Diagram 
 
 ### Reliability Growth Model
 
